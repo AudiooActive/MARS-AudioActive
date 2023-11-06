@@ -1,0 +1,37 @@
+.burger-container {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(24, 22, 22, 0.88);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 2000;
+}
+
+.burger-elments-container {
+    padding: 10px;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(10, 10, 10);
+}
+
+.burger-elments-container ul {
+    margin-top: 40px;
+    margin-left: 12px;
+}
+
+.burger-elments-container li {
+    color: aliceblue;
+    list-style-type: none;
+    margin-bottom: 14px;
+}
+
+.burger-elments-container img {
+    cursor: pointer;
+}
+
+.none {
+    display: none;
+}
